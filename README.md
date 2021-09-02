@@ -85,7 +85,7 @@ EMOJI_ALWAYS | N | Set to true if you want to have emojis in all slack messages 
 USERS | N | Set a list of users with "BITBUCKET_USER_NAME|SLACK_USER_ID, ..." if you want to notify users properly in slack messages | Empty String
 HEX_INFO | N | Hex color of updated, and created | #3498db
 HEX_DANGER | N | Hex color of declined | #e74c3c
-HEX_WARNING | N | Hex color of unapprove, comment: created, comment: deleted, and comment: updated | #f1c40f
+HEX_WARNING | N | Hex color of unapproved, comment: created, comment: deleted, and comment: updated | #f1c40f
 HEX_SUCCESS | N | Hex color of merge, and approve | #2ecc71
 
 If you want to use `.env` file, copy the `example.env` as `.env` and modify it as needed.
