@@ -182,4 +182,4 @@ which makes it easy to setup the environment without worrying about the requirem
 
 ## Credits
 
-This repo was inspired by: https://github.com/kfr2/bitbucket-pull-request-connector
+This repo was largely modify codes from here: https://github.com/lfilho/bitbucket-slack-pr-hook
