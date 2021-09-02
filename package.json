@@ -13,7 +13,6 @@
     "start-container": "docker run --name bb-slack-hook --restart always -p 5000:5000 -d bitbucket-slack-pr-hook npm start",
     "stop-container": "docker stop bb-slack-hook",
     "restart-container": "docker restart bb-slack-hook",
-    "test": "node_modules/buster/bin/buster-test"
   },
   "keywords": [
     "bitbucket",
