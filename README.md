@@ -116,7 +116,7 @@ When running the service in Docker container, the config values can be provided 
 docker run -e PORT=5000 -e SLACK_WEBHOOK=https://hooks.slack.com/services/XX/XXX/XXXX \
   -e USE_EMOJIS=true -e EMOJI_ALWAYS=true -e MENTION_OWNERS=true -e MENTION_REVIEWERS=true \
   -e USERS="BITBUCKET_USER_NAME1|SLACK_USER_ID1, BITBUCKET_USER_NAME2|SLACK_USER_ID2, BITBUCKET_USER_NAME3|SLACK_USER_ID3" \
-  -e MENTION_REVIEWERS=true -p 5000:5000 -d bitbucket-slack-pr-hook 
+  -e MENTION_REVIEWERS=true -p 5000:5000 -d --restart always bitbucket-slack-pr-hook 
   
 ```
 
